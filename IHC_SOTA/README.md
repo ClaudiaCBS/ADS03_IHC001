@@ -29,7 +29,7 @@ Para criar um chatbot no Telegram usando Python, você pode seguir os passos aba
 Você pode instalar a biblioteca python-telegram-bot usando o pip.
 
 ```cmd
-pip install python-telegram-bot
+pip install pytelegrambotapi
 ```
 
 <span id="2">
@@ -37,38 +37,26 @@ pip install python-telegram-bot
 ## 3. Crie o código do seu bot:
 
 ```cmd
-from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+import telebot
+from telebot import types
+
+# Substitua 'TOKEN' pelo token gerado pelo BotFather.
+token = 'SEU_TOKEN_AQUI'
+
+bot = telebot.TeleBot(token)
 
 # Função de comando "/start"
-def start(update: Update, context: CallbackContext):
-    update.message.reply_text("Olá! Eu sou um chatbot. Como posso ajudar?")
+@bot.message_handler(commands=['start'])
+def start(message):
+    bot.reply_to(message, "Olá! Eu sou um ChatBot. Como posso ajudar?")
 
 # Função de eco para mensagens de texto
-def echo(update: Update, context: CallbackContext):
-    update.message.reply_text(update.message.text)
+@bot.message_handler(func=lambda message: True)
+def echo_all(message):
+    bot.reply_to(message, message.text)
 
-def main():
-    # Substitua 'TOKEN' pelo token gerado pelo BotFather.
-    token = 'SEU_TOKEN_AQUI'
-
-    updater = Updater(token, use_context=True)
-
-    # Obtém o despachante para registrar manipuladores
-    dispatcher = updater.dispatcher
-
-    # Adicione manipuladores de comandos
-    dispatcher.add_handler(CommandHandler("start", start))
-
-    # Adicione um manipulador para mensagens de texto
-    dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
-
-    # Inicia o bot
-    updater.start_polling()
-    updater.idle()
-
-if __name__ == '__main__':
-    main()
+# Inicia o bot
+bot.polling()
 ```
 
 Neste código de exemplo, criamos um bot que responde ao comando /start com uma saudação e ecoa mensagens de texto que recebe.
