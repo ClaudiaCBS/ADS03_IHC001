@@ -69,7 +69,6 @@ Na figura abaixo, podemos ver que os botões para fechar as propagandas exibem e
 
 Projetar a interface de forma a evitar que os usuários cometam erros.
 
-
 <details>
 <summary>Exemplo</summary>
 Na figura abaixo, podemos ver que a propaganda do aplicativo exibe duas alternativas para fechamento, sendo que apenas uma delas efetivamente encerra o aplicativo. Essa discrepância pode induzir o usuário ao equívoco, levando-o a clicar na opção incorreta.
@@ -85,9 +84,11 @@ Os usuários não devem ser forçados a lembrar informações. Em vez disso, as 
 
 <details>
 <summary>Exemplo</summary>
-Na figura acima, podemos ver..
-  
-![Heuristica 6](https://github.com/MateusdiSousa/Bertoti/assets/111647763/ac0fbf4b-3d35-4976-a707-e915610ea380)
+Na figura abaixo, podemos ver que o programa Excel exibe uma sequência considerável de etapas para salvar um arquivo, tornando esse procedimento suscetível a ser esquecido pelo usuário.
+
+![06a_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/5731aa96-4586-4e70-a504-55a12b6dff97)
+<br>
+![06b_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/cf598f01-2109-4a88-8675-9a22e905c3a8)
 
 </details>
 
@@ -99,9 +100,9 @@ A interface deve acomodar tanto os usuários iniciantes quanto os experientes, p
 
 <details>
 <summary>Exemplo</summary>
-Na figura acima, podemos ver..
-  
-![Heuristica 7](https://github.com/MateusdiSousa/Bertoti/assets/111647763/ac0fbf4b-3d35-4976-a707-e915610ea380)
+Na figura abaixo
+
+![07_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/ead02b5c-01b1-4825-b5b7-3db1dd5e5cc2)
 
 </details>
 
@@ -113,12 +114,11 @@ A interface deve ser agradável visualmente e não conter informações desneces
 
 <details>
 <summary>Exemplo</summary>
-Na figura acima, podemos ver..
-  
-![Heuristica 8](https://github.com/MateusdiSousa/Bertoti/assets/111647763/ac0fbf4b-3d35-4976-a707-e915610ea380)
+Na figura abaixo, podemos ver que o site está repleto de propagandas, o que compromete a experiência do usuário, tornando o site poluído visualmente e a visita desagradável.
+
+![08a_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/3331da9e-efee-475f-a409-6c8fbcb71ba3)
 
 </details>
-
 
 <br>
 
@@ -128,9 +128,9 @@ Quando os usuários cometem erros, a interface deve fornecer mensagens claras e 
 
 <details>
 <summary>Exemplo</summary>
-Na figura acima, podemos ver..
-  
-![Heuristica 9](https://github.com/MateusdiSousa/Bertoti/assets/111647763/ac0fbf4b-3d35-4976-a707-e915610ea380)
+Na figura abaixo, podemos ver o programa AVL, utilizado para análise aerodinâmica de aeronaves. Para iniciar o processo, é necessário carregar um arquivo com extensão ".avl" contendo informações cruciais sobre a aeronave. No entanto, em casos de erro na descrição dessas informações, o programa limita-se a exibir uma mensagem genérica de erro, sem fornecer detalhes sobre a localização específica do arquivo que necessita correção.
+
+![09_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/f8a4c3a4-9751-46dc-8b99-7cb596ce134d)
 
 </details>
 
