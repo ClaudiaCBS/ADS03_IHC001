@@ -31,7 +31,7 @@ A linguagem e os conceitos usados na interface devem refletir o mundo real do us
 <summary>Exemplo</summary>
 Na figura abaixo, um link fornecido no Discord resulta no erro 404. Infelizmente, esse código de erro não fornece informações claras para o usuário, deixando-o sem compreender a natureza do problema.
 
-![02_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/08e05e67-9ea0-446e-8b2e-6b59962af17b)
+![02_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/34bcb211-4b20-4988-8bbd-38a3fdaf77b4)
 
 </details>
 
@@ -100,9 +100,9 @@ A interface deve acomodar tanto os usuários iniciantes quanto os experientes, p
 
 <details>
 <summary>Exemplo</summary>
-Na figura abaixo
+Na figura abaixo, observamos que, ao acessar o site do SIGA por meio de um celular, as letras apresentam um tamanho muito pequeno, o que dificulta a visualização por parte do usuário.
 
-![07_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/ead02b5c-01b1-4825-b5b7-3db1dd5e5cc2)
+![07_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/42d4056c-c1ce-4231-a3a2-789f02ed936f)
 
 </details>
 
@@ -142,9 +142,9 @@ A interface deve oferecer acesso fácil a informações de suporte e documentaç
 
 <details>
 <summary>Exemplo</summary>
-Na figura acima, podemos ver..
-  
-![Heuristica 10](https://github.com/MateusdiSousa/Bertoti/assets/111647763/ac0fbf4b-3d35-4976-a707-e915610ea380)
+Na figura abaixo, podemos ver o site em que um nutricionista compartilha uma variedade de dicas nutricionais, contudo, não disponibiliza os artigos ou fontes das quais extraiu essas informações, deixando o usuário sem uma base para pesquisa adicional.
+
+![10_heuristica](https://github.com/ClaudiaCBS/ADS03_IHC001/assets/112169639/ffedf943-82d4-4549-aa73-78158a8fbfe6)
 
 </details>
 
